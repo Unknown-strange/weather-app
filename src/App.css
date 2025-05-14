@@ -1,0 +1,48 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding:3rem ;
+  background-color: #f0f8ff;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1a76af, #eaeff5);
+}
+
+input{
+  padding: 10px;
+  width: 600px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 5;
+}
+
+button{
+  width: 250px;
+  padding: 10px 20px;
+  background-color: #1a76af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-card {
+  width: 600px;
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 2;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, #2883bb, #b2b9c2);
+}
